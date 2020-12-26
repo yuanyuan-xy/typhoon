@@ -1,0 +1,67 @@
+{
+  "name": "map-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-language": "^0.10.1",
+    "@openearth/windgl": "^0.1.2",
+    "@supermap/iclient-leaflet": "^10.1.0",
+    "@turf/bearing": "^6.0.1",
+    "@turf/buffer": "^5.1.5",
+    "@turf/collect": "^6.0.1",
+    "@turf/turf": "^5.1.6",
+    "core-js": "^3.6.5",
+    "echarts": "^4.8.0",
+    "echarts-gl": "^1.1.1",
+    "echartslayer": "^0.1.6",
+    "jquery": "^3.5.1",
+    "leaflet": "^1.7.1",
+    "leaflet-velocity": "^1.7.0",
+    "less-loader": "^7.0.1",
+    "mapbox-gl": "^1.12.0",
+    "mapbox-gl-directions": "^3.0.3",
+    "mapbox-gl-draw": "^0.16.0",
+    "swiper": "^6.4.1",
+    "turf": "^3.0.14",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-print-nb": "^1.5.0",
+    "vue-print-nb-jeecg": "^1.0.9",
+    "vue-router": "^3.3.4",
+    "wind-js-leaflet": "^2.0.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.12.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

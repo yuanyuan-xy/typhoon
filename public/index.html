@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css' type='text/css'/>
+    <!-- <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css"> -->
+    <!-- <script src="../src/views/mapboxGl/include-mapboxgl.js"></script>
+    <script src="../src/views/mapboxGl/include-web.js"></script> -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=c2b8b8afa7ee71cd55fcdedfc2dcb73b"></script> 
+    <!-- <script src="http://webapi.amap.com/loca?v=1.4.15&key=c2b8b8afa7ee71cd55fcdedfc2dcb73b"></script> -->
+    <!-- <script src="https://webapi.amap.com/ui/1.0/main.js?v=1.4.15"></script> -->
+    <!-- <script src="../static/vue-print-nb/dist/js/app.615a4834.js"></script> -->
+  </body>
+</html>
